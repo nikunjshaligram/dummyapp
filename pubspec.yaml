@@ -1,0 +1,67 @@
+name: dummyapp
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  get_storage: ^2.1.1
+  dio: ^5.1.1
+  connectivity_plus: ^5.0.1
+  dartz: ^0.10.1
+  sizer: ^2.0.15
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_timezone: ^1.0.8
+  device_info_plus: ^9.1.0
+  permission_handler: ^11.0.1
+  shimmer: ^3.0.0
+  flutter_signature_pad: ^3.0.1
+  image_picker: ^1.0.8
+  get_it: ^7.6.4
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: MonBold
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+
+    - family: MonExtraBold
+      fonts:
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+
+    - family: MonItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-Italic.ttf
+
+    - family: MonLight
+      fonts:
+        - asset: assets/fonts/Montserrat-Light.ttf
+
+    - family: MonMedium
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+
+    - family: MonSemiBold
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+
+    - family: MonRegular
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf            
+
