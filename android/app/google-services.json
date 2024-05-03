@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445299343348",
+    "project_id": "crashlytics-5ab78",
+    "storage_bucket": "crashlytics-5ab78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445299343348:android:dd3ae43f86eedc7397c3a1",
+        "android_client_info": {
+          "package_name": "com.app.dummyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNI7Kiw8Hs51BREutMyVhSykoen3xMbnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

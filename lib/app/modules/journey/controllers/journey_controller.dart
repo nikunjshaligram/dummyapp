@@ -11,8 +11,6 @@ class JourneyController extends BaseGetXController {
     super.onInit();
 
     journeyList.value = StaticArray().journey;
-
-    print("isConnection ${isConnection}");
   }
 
   @override
@@ -26,6 +24,8 @@ class JourneyController extends BaseGetXController {
   }
 
   void nextScreen(id) {
+    //FormatException('An error occurred');
     Get.toNamed(Routes.JOURNEY_LIST, arguments: id);
+    // throw Exception();
   }
 }
